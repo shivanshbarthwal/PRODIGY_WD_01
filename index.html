@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoFix Car Workshop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">AutoFix</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="section">
+        <img src="img/home.jpeg" alt="Car Workshop">
+        <h1>Welcome to AutoFix Car Workshop</h1>
+        <p>Your trusted partner for all automotive needs! At AutoFix, we provide top-notch repair and maintenance services to keep your vehicle running smoothly. From routine oil changes to complex engine repairs, our skilled technicians are here to ensure your car is road-ready.</p>
+    </section>
+
+    <section id="about" class="section">
+        <img src="img/about.jpeg" alt="Mechanic Team">
+        <h1>About AutoFix</h1>
+        <p>Founded in 2010, AutoFix Car Workshop is a family-owned business with a passion for automobiles. Our team of certified mechanics uses state-of-the-art equipment to deliver reliable and efficient services. We pride ourselves on transparency, quality, and customer satisfaction, making us the go-to workshop in town.</p>
+    </section>
+
+    <section id="services" class="section">
+        <img src="img/services.jpeg" alt="Car Repair">
+        <h1>Our Services</h1>
+        <p>We offer a full range of automotive services, including oil changes, brake repairs, tire services, engine diagnostics, and bodywork. Whether you need a quick tune-up or a major overhaul, AutoFix guarantees precision and care to get you back on the road safely.</p>
+    </section>
+
+    <section id="portfolio" class="section">
+        <img src="img/gallery.jpeg" alt="Car Gallery">
+        <h1>Our Work Gallery</h1>
+        <p>Explore our gallery showcasing before-and-after transformations, custom paint jobs, and restored classics. Our portfolio reflects our commitment to excellence, with every project handled with meticulous attention to detail.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <img src="img/contact.jpeg" alt="Contact Us">
+        <h1>Contact AutoFix</h1>
+        <p>Need a repair or have a question? Fill out the form below to schedule an appointment or get a free quote. Our team is ready to assist you with all your automotive needs!</p>
+        <form class="contact-form" id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="tel" id="phone" placeholder="Your Phone Number" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <div class="popup" id="popup">
+        <p id="popup-message"></p>
+        <button onclick="closePopup()">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
